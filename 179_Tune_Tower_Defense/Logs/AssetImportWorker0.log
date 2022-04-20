@@ -198,3 +198,92 @@ Received Import Request.
 Start importing Assets/EndMat.mat using Guid(c6fd1512221b04d28839d2d10e3c1732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '111eeff2ecdd0096c75b97ba2dfe2c5c') in 0.010609 seconds 
   Import took 0.013907 seconds .
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004158 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.344 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1344ms)
+		BeginReloadAssembly (193ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (92ms)
+		EndReloadAssembly (1077ms)
+			LoadAssemblies (107ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (368ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (79ms)
+			SetupLoadedEditorAssemblies (402ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (108ms)
+				ProcessInitializeOnLoadAttributes (274ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1497 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 185.8 MB.
+System memory in use after: 185.9 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2018.
+Total: 3.968434 ms (FindLiveObjects: 0.162075 ms CreateObjectMapping: 0.062482 ms MarkObjects: 3.693317 ms  DeleteObjects: 0.048637 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1265.298079 seconds.
+  path: Assets/groundplane.mat
+  artifactKey: Guid(4e2a1f357dd0a4e24a0dab2022c78152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/groundplane.mat using Guid(4e2a1f357dd0a4e24a0dab2022c78152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94ebf02cfa67dda7678636721d8c0edb') in 0.116457 seconds 
+  Import took 0.119425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 74.780991 seconds.
+  path: Assets/Map 1.unity
+  artifactKey: Guid(504959027336c417eadd922eb7244407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map 1.unity using Guid(504959027336c417eadd922eb7244407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81325bfe82cae9089a4e4c0e4cf7d11e') in 0.001445 seconds 
+  Import took 0.004340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.632929 seconds.
+  path: Assets/groundplane.prefab
+  artifactKey: Guid(1cc0cf26336fd4eb0af10a8890561ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/groundplane.prefab using Guid(1cc0cf26336fd4eb0af10a8890561ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04504a8325cb2bebd6706f7a7f4fdf39') in 0.038614 seconds 
+  Import took 0.042667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.363574 seconds.
+  path: Assets/Ground.prefab
+  artifactKey: Guid(7a8ed12cecc9546598f1f77a07679a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ground.prefab using Guid(7a8ed12cecc9546598f1f77a07679a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0005bdc460648aac8a74c661962cff14') in 0.010834 seconds 
+  Import took 0.014608 seconds .
+
