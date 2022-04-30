@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class WaveSpawner : MonoBehaviour
 {
-    
+
     public Transform enemyPrefab;
     public Transform spawnPoint;
 
@@ -18,7 +18,7 @@ public class WaveSpawner : MonoBehaviour
         if(count <= 0f) {
             StartCoroutine(spawnWave());
             count = waveTime;
-        } 
+        }
         count -= Time.deltaTime;
     }
 
@@ -30,7 +30,7 @@ public class WaveSpawner : MonoBehaviour
             yield return new WaitForSeconds(0.5f);
         }
         }
-        
+
     }
 
     void spawnEnemy() {
