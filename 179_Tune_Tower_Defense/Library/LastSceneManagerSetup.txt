@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/split-base-test.unity
+- path: Assets/Scenes/tower-place-test.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

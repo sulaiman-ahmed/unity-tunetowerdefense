@@ -135,7 +135,8 @@ GameObject:
   - component: {fileID: 76029212}
   - component: {fileID: 76029211}
   - component: {fileID: 76029210}
-  m_Layer: 0
+  - component: {fileID: 76029214}
+  m_Layer: 3
   m_Name: power-spedometer-4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -218,6 +219,23 @@ Transform:
   m_Father: {fileID: 1630296493}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1818360608 &76029214
+PositionConstraint:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 76029209}
+  m_Enabled: 1
+  m_Weight: 1
+  m_TranslationAtRest: {x: 0, y: 0, z: 97.2}
+  m_TranslationOffset: {x: 0, y: 0, z: 0}
+  m_AffectTranslationX: 1
+  m_AffectTranslationY: 1
+  m_AffectTranslationZ: 1
+  m_IsContraintActive: 1
+  m_IsLocked: 1
+  m_Sources: []
 --- !u!1 &344086384
 GameObject:
   m_ObjectHideFlags: 0
@@ -228,7 +246,7 @@ GameObject:
   m_Component:
   - component: {fileID: 344086386}
   - component: {fileID: 344086385}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Directional Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -323,7 +341,8 @@ GameObject:
   - component: {fileID: 784875835}
   - component: {fileID: 784875834}
   - component: {fileID: 784875833}
-  m_Layer: 0
+  - component: {fileID: 784875837}
+  m_Layer: 3
   m_Name: power-spedometer-5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -406,6 +425,23 @@ Transform:
   m_Father: {fileID: 1630296493}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1818360608 &784875837
+PositionConstraint:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 784875832}
+  m_Enabled: 1
+  m_Weight: 1
+  m_TranslationAtRest: {x: 0, y: 0, z: 83.600006}
+  m_TranslationOffset: {x: 0, y: 0, z: 0}
+  m_AffectTranslationX: 1
+  m_AffectTranslationY: 1
+  m_AffectTranslationZ: 1
+  m_IsContraintActive: 1
+  m_IsLocked: 1
+  m_Sources: []
 --- !u!1 &956254380
 GameObject:
   m_ObjectHideFlags: 0
@@ -418,7 +454,8 @@ GameObject:
   - component: {fileID: 956254383}
   - component: {fileID: 956254382}
   - component: {fileID: 956254381}
-  m_Layer: 0
+  - component: {fileID: 956254385}
+  m_Layer: 3
   m_Name: power-spedometer-2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -501,6 +538,23 @@ Transform:
   m_Father: {fileID: 1630296493}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1818360608 &956254385
+PositionConstraint:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 956254380}
+  m_Enabled: 1
+  m_Weight: 1
+  m_TranslationAtRest: {x: 0, y: 0, z: 124.399994}
+  m_TranslationOffset: {x: 0, y: 0, z: 0}
+  m_AffectTranslationX: 1
+  m_AffectTranslationY: 1
+  m_AffectTranslationZ: 1
+  m_IsContraintActive: 1
+  m_IsLocked: 1
+  m_Sources: []
 --- !u!1 &1027126469
 GameObject:
   m_ObjectHideFlags: 0
@@ -510,6 +564,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1027126470}
+  - component: {fileID: 1027126471}
   m_Layer: 0
   m_Name: over-game-map
   m_TagString: Untagged
@@ -535,6 +590,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1818360608 &1027126471
+PositionConstraint:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1027126469}
+  m_Enabled: 1
+  m_Weight: 1
+  m_TranslationAtRest: {x: 68.9, y: 0, z: 31.699997}
+  m_TranslationOffset: {x: 0, y: 0, z: 0}
+  m_AffectTranslationX: 1
+  m_AffectTranslationY: 1
+  m_AffectTranslationZ: 1
+  m_IsContraintActive: 1
+  m_IsLocked: 1
+  m_Sources: []
 --- !u!1 &1054721397
 GameObject:
   m_ObjectHideFlags: 0
@@ -547,7 +619,8 @@ GameObject:
   - component: {fileID: 1054721400}
   - component: {fileID: 1054721399}
   - component: {fileID: 1054721398}
-  m_Layer: 0
+  - component: {fileID: 1054721402}
+  m_Layer: 3
   m_Name: power-spedometer-1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -630,6 +703,23 @@ Transform:
   m_Father: {fileID: 1630296493}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1818360608 &1054721402
+PositionConstraint:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1054721397}
+  m_Enabled: 1
+  m_Weight: 1
+  m_TranslationAtRest: {x: 0, y: 0, z: 138}
+  m_TranslationOffset: {x: 0, y: 0, z: 0}
+  m_AffectTranslationX: 1
+  m_AffectTranslationY: 1
+  m_AffectTranslationZ: 1
+  m_IsContraintActive: 1
+  m_IsLocked: 1
+  m_Sources: []
 --- !u!1 &1224799078
 GameObject:
   m_ObjectHideFlags: 0
@@ -642,7 +732,8 @@ GameObject:
   - component: {fileID: 1224799081}
   - component: {fileID: 1224799080}
   - component: {fileID: 1224799079}
-  m_Layer: 0
+  - component: {fileID: 1224799083}
+  m_Layer: 3
   m_Name: tower-purchase-menu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -725,6 +816,23 @@ Transform:
   m_Father: {fileID: 1027126470}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1818360608 &1224799083
+PositionConstraint:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1224799078}
+  m_Enabled: 1
+  m_Weight: 1
+  m_TranslationAtRest: {x: -4.4, y: 0, z: 1}
+  m_TranslationOffset: {x: 0, y: 0, z: 0}
+  m_AffectTranslationX: 1
+  m_AffectTranslationY: 1
+  m_AffectTranslationZ: 1
+  m_IsContraintActive: 1
+  m_IsLocked: 1
+  m_Sources: []
 --- !u!1 &1345125471
 GameObject:
   m_ObjectHideFlags: 0
@@ -820,7 +928,8 @@ GameObject:
   - component: {fileID: 1620875343}
   - component: {fileID: 1620875342}
   - component: {fileID: 1620875341}
-  m_Layer: 0
+  - component: {fileID: 1620875345}
+  m_Layer: 3
   m_Name: power-spedometer-3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -903,6 +1012,23 @@ Transform:
   m_Father: {fileID: 1630296493}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1818360608 &1620875345
+PositionConstraint:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1620875340}
+  m_Enabled: 1
+  m_Weight: 1
+  m_TranslationAtRest: {x: 0, y: 0, z: 110.8}
+  m_TranslationOffset: {x: 0, y: 0, z: 0}
+  m_AffectTranslationX: 1
+  m_AffectTranslationY: 1
+  m_AffectTranslationZ: 1
+  m_IsContraintActive: 1
+  m_IsLocked: 1
+  m_Sources: []
 --- !u!1 &1630296492
 GameObject:
   m_ObjectHideFlags: 0
@@ -912,6 +1038,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1630296493}
+  - component: {fileID: 1630296494}
   m_Layer: 0
   m_Name: power-spedometers
   m_TagString: Untagged
@@ -939,6 +1066,23 @@ Transform:
   m_Father: {fileID: 1027126470}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1818360608 &1630296494
+PositionConstraint:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1630296492}
+  m_Enabled: 1
+  m_Weight: 1
+  m_TranslationAtRest: {x: -120.3, y: 0, z: -103}
+  m_TranslationOffset: {x: 0, y: 0, z: 0}
+  m_AffectTranslationX: 1
+  m_AffectTranslationY: 1
+  m_AffectTranslationZ: 1
+  m_IsContraintActive: 1
+  m_IsLocked: 1
+  m_Sources: []
 --- !u!1 &1731000373
 GameObject:
   m_ObjectHideFlags: 0
@@ -951,7 +1095,8 @@ GameObject:
   - component: {fileID: 1731000376}
   - component: {fileID: 1731000375}
   - component: {fileID: 1731000374}
-  m_Layer: 0
+  - component: {fileID: 1731000378}
+  m_Layer: 3
   m_Name: rhythm-section
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1034,6 +1179,23 @@ Transform:
   m_Father: {fileID: 1027126470}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1818360608 &1731000378
+PositionConstraint:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1731000373}
+  m_Enabled: 1
+  m_Weight: 1
+  m_TranslationAtRest: {x: -150.9, y: 0, z: 1}
+  m_TranslationOffset: {x: 0, y: 0, z: 0}
+  m_AffectTranslationX: 1
+  m_AffectTranslationY: 1
+  m_AffectTranslationZ: 1
+  m_IsContraintActive: 1
+  m_IsLocked: 1
+  m_Sources: []
 --- !u!1 &1866333050
 GameObject:
   m_ObjectHideFlags: 0
@@ -1046,7 +1208,8 @@ GameObject:
   - component: {fileID: 1866333053}
   - component: {fileID: 1866333052}
   - component: {fileID: 1866333051}
-  m_Layer: 0
+  - component: {fileID: 1866333055}
+  m_Layer: 3
   m_Name: track-section
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1129,6 +1292,23 @@ Transform:
   m_Father: {fileID: 1027126470}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1818360608 &1866333055
+PositionConstraint:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1866333050}
+  m_Enabled: 1
+  m_Weight: 1
+  m_TranslationAtRest: {x: -68.9, y: 0, z: 1}
+  m_TranslationOffset: {x: 0, y: 0, z: 0}
+  m_AffectTranslationX: 1
+  m_AffectTranslationY: 1
+  m_AffectTranslationZ: 1
+  m_IsContraintActive: 1
+  m_IsLocked: 1
+  m_Sources: []
 --- !u!1 &2036323450
 GameObject:
   m_ObjectHideFlags: 0
@@ -1141,7 +1321,8 @@ GameObject:
   - component: {fileID: 2036323453}
   - component: {fileID: 2036323452}
   - component: {fileID: 2036323451}
-  m_Layer: 0
+  - component: {fileID: 2036323455}
+  m_Layer: 3
   m_Name: power-spedometer-6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1224,3 +1405,20 @@ Transform:
   m_Father: {fileID: 1630296493}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1818360608 &2036323455
+PositionConstraint:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2036323450}
+  m_Enabled: 1
+  m_Weight: 1
+  m_TranslationAtRest: {x: 0, y: 0, z: 70}
+  m_TranslationOffset: {x: 0, y: 0, z: 0}
+  m_AffectTranslationX: 1
+  m_AffectTranslationY: 1
+  m_AffectTranslationZ: 1
+  m_IsContraintActive: 1
+  m_IsLocked: 1
+  m_Sources: []

@@ -8,10 +8,10 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - over-game-layer
   - Water
   - UI
-  - 
+  - tower-layer
   - 
   - 
   - 
