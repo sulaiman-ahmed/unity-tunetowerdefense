@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Board : MonoBehaviour
 {
-    //List <float> NoteOrder = new List <float> () {1, 3, 4, 6, 1, 2, 5, 5, 6, 2, 4, 3, 5, 1, 5, 2, 4};
-    List <float> NoteOrder = new List <float> () {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1};
+    List <float> NoteOrder = new List <float> () {1, 3, 4, 6, 1, 2, 5, 5, 6, 2, 4, 3, 5, 1, 5, 2, 4};
+    //List <float> NoteOrder = new List <float> () {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1};
     // Start is called before the first frame update
     public Transform noteObj;
     public int notePos = 0;

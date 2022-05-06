@@ -39,20 +39,51 @@ public class hitNote : MonoBehaviour
         //     }
         //}
 
-        if(other.gameObject.name == "hitCollider1") {
-            foreach(KeyCode vKey in System.Enum.GetValues(typeof(KeyCode))) {
+        // if(other.gameObject.name == "hitCollider1") {
+        //     foreach(KeyCode vKey in System.Enum.GetValues(typeof(KeyCode))) {
+        //         if(Input.GetKey(vKey)) {
+        //             if(vKey == KeyCode.A) { 
+        //                 Debug.Log("note 1 not working");
+        //                 Destroy(gameObject);
+        //             }
+                   
+        //         }
+        //     }
+            // if(Input.GetKeyDown(KeyCode.A)) {
+            //     Destroy(gameObject);
+            //     Debug.Log("success A");
+            // }
+       // }
+        
+        foreach(KeyCode vKey in System.Enum.GetValues(typeof(KeyCode))) {
                 if(Input.GetKey(vKey)) {
-                    if(vKey == KeyCode.A) { 
-                        Debug.Log("note 1 not working");
+                    if(vKey == KeyCode.A && other.gameObject.name == "hitCollider1") { 
+                        Debug.Log("success A");
+                        Destroy(gameObject);
+                    }
+                    else if(vKey == KeyCode.W && other.gameObject.name == "hitCollider2") { 
+                        Debug.Log("success W");
+                        Destroy(gameObject);
+                    }
+                    else if(vKey == KeyCode.S && other.gameObject.name == "hitCollider3") { 
+                        Debug.Log("success S");
+                        Destroy(gameObject);
+                    }
+                    else if(vKey == KeyCode.E && other.gameObject.name == "hitCollider4") { 
+                        Debug.Log("success E");
+                        Destroy(gameObject);
+                    }
+                    else if(vKey == KeyCode.D && other.gameObject.name == "hitCollider5") { 
+                        Debug.Log("success D");
+                        Destroy(gameObject);
+                    }
+                    else if(vKey == KeyCode.F && other.gameObject.name == "hitCollider6") { 
+                        Debug.Log("success F");
                         Destroy(gameObject);
                     }
                    
                 }
             }
-            // if(Input.GetKeyDown(KeyCode.A)) {
-            //     Destroy(gameObject);
-            //     Debug.Log("success A");
-            // }
-        }
+
     }
 }
