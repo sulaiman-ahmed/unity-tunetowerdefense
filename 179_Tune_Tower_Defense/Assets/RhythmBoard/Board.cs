@@ -15,34 +15,35 @@ public class Board : MonoBehaviour
     IEnumerator spawn() {
         yield return new WaitForSeconds(1);
         if(NoteOrder[notePos] == 1) {
-            xpos = -1.75f;
+            xpos = -98.83f;
         }
 
         if(NoteOrder[notePos] == 2) {
-            xpos = -1.05f;
+            xpos = -92.28f;
         }
 
         if(NoteOrder[notePos] == 3) {
-            xpos = -0.355f;
+            xpos = -85.19f;
         }
 
         if(NoteOrder[notePos] == 4) {
-            xpos = 0.35f;
+            xpos = -78.39f;
         }
 
         if(NoteOrder[notePos] == 5) {
-            xpos = 1.05f;
+            xpos = -71.4f;
         }
 
         if(NoteOrder[notePos] == 6) {
-            xpos = 1.75f;
+            xpos = -64.64f;
         }
 
         if(notePos < NoteOrder.Count) {
             notePos += 1; 
         }
         timerStart = "y";
-        Instantiate (noteObj, new Vector3 (xpos, 3.7f, -0.79f), noteObj.rotation);     
+        //Instantiate (noteObj, new Vector3 (xpos, -3.44f, 7.27f), noteObj.rotation);     
+        Instantiate (noteObj, new Vector3 (xpos, 13f, 65.6f), noteObj.rotation); 
     }
 
     void Start()
