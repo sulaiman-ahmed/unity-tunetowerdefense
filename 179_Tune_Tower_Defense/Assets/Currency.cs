@@ -5,18 +5,18 @@ using UnityEngine.UI;
 
 public class Currency : MonoBehaviour
 {
+    [SerializeField]
+    private Text _title;
 
     public int currency = 0;
-    public Text message;
     // Start is called before the first frame update
     void Start()
     {
-      message.text = "Currency: " + currency;
+      _title.text = "Currency: " + currency;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-      
+    public void updateCurrency() {
+      currency += 1;
+      _title.text = "Currency: " + currency;
     }
 }
