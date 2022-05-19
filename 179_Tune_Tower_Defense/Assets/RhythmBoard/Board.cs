@@ -4,7 +4,12 @@ using UnityEngine;
 
 public class Board : MonoBehaviour
 {
-    List <float> NoteOrder = new List <float> () {1, 3, 4, 6, 1, 2, 5, 5, 6, 2, 4, 3, 5, 1, 5, 2, 4};
+    List <float> NoteOrder = new List <float> () {1, 3, 4, 6, 1, 2, 5, 5, 6, 2, 4, 3, 5, 1, 5, 2, 4, 6, 1, 3, 
+                                                  4, 2, 5, 6, 6, 3, 2, 1, 6, 4, 3, 2, 5 ,1, 4, 1, 3, 1, 6, 4,
+                                                  4, 3, 6, 1, 2, 3, 5, 1, 6, 2, 3, 5, 1, 6, 4, 1, 4, 1, 4, 5, 
+                                                  6, 1, 2, 3, 4, 5, 1, 2, 3, 1, 5, 4, 2, 5, 1, 6, 1, 2, 4, 3, 
+                                                  1, 4, 5, 1, 5, 6, 2, 1, 3, 5, 2, 4, 5, 1, 2, 4, 3, 5, 1, 2, 
+                                                  6, 1, 2, 4, 5, 1, 3, 1, 5, 3, 6, 4, 1, 2, 3, 4, 5, 2, 5, 2};
     //List <float> NoteOrder = new List <float> () {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1};
     //List <float> NoteOrder = new List <float> () {2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2};
     // Start is called before the first frame update
