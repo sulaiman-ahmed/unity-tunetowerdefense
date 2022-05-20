@@ -6,6 +6,8 @@ public class Bullet : MonoBehaviour
 {
     private Transform target;
 
+    public int damage = 25;
+
     public float speed = 60f;
 
     public void Chase(Transform _target) {
@@ -33,6 +35,15 @@ public class Bullet : MonoBehaviour
 
     void HitTarget () {
         Destroy(gameObject);
+        Damage(target);
+    }
+
+    void Damage(Transform enemy) {
+        eighth_note e = enemy.GetComponent<eighth_note>();
+        if (e != null)
+		{
+			e.TakeDamage(damage);
+		}
     }
     
 
