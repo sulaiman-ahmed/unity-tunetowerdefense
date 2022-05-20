@@ -15,8 +15,22 @@ public class Currency : MonoBehaviour
       _title.text = "Currency: " + currency;
     }
 
-    public void updateCurrency() {
+    public void addCurrency() {
       currency += 1;
       _title.text = "Currency: " + currency;
+    }
+
+    public void removeCurrency(int given) {
+      currency -= given;
+      _title.text = "Currency: " + currency;
+    }
+
+    public void removeCurrency() {
+      currency -= 1;
+      _title.text = "Currency: " + currency;
+    }
+
+    public int getCurrency() {
+      return currency;
     }
 }
