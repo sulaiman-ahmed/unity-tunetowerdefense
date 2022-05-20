@@ -32,7 +32,7 @@ public class Bullet : MonoBehaviour
     }
 
     void HitTarget () {
-        Debug.Log("Hit Registered");
+        Destroy(gameObject);
     }
     
 
